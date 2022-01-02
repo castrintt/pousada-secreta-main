@@ -45,8 +45,8 @@
     </main>
 
      <!-- NOSSOS PRODUTOS-->
-    <section id="quartos">
-        <article >
+    <section>
+        <article id="quartos" >
             <h2>
                 SEJA BEM-VINDO(A)!
             </h2>
@@ -54,24 +54,24 @@
                 Relaxe em nossas acomodações e curta o melhor de Angra dos Reis. Temos quartos para solteiro, casal ou família.
             </p>
         </article>
-        <div class="card-box">
+        <div class="card-box" >
             <div class="card">
                <img src="imagens/quarto-solteiro1.jpg" alt="quarto-solteiro"><br>
-               <a href="#solteiro">Quarto de Solteiro</a>
+               <a target="-self" rel="next" href="quartos.html">Quarto de Solteiro</a>
             </div>
             <div class="card" id="casal">
                <img src="imagens/quarto-casal1.jpg" alt="quarto-casal"><br>
-               <a href="#casal">Quarto de Casal</a>
+               <a target="-self" rel="next" href="quartos.html">Quarto de Casal</a>
             </div>
             <div class="card" id="familia">
                <img src="imagens/quarto-familia1.jpg" alt="quarto-familai"><br>
-               <a href="#familia">Quarto de Família</a>
+               <a target="-self" rel="next" href="quartos.html">Quarto de Família</a>
             </div>
         </div>
         
      <!-- LOCALIZAÇÃO-->
     </section>
-    <section >
+    <section id="iframe" >
         <div class="localizacao">
             <h2 id="rota">
                 ROTA
@@ -120,7 +120,7 @@
             </div>
             <div class="box-coluna">
                 
-                <div class="text-coluna">
+                <div class="text-coluna" id="hidden">
                     <h2>
                        Nossos quartos
                     </h2>
@@ -131,7 +131,7 @@
                 <div><img src="imagens/img3.jpg" alt="nossos-quartos"></div>
             </div>
             <div class="box-coluna">
-                <div class="text-coluna">
+                <div class="text-coluna" id="recepcao">
                     <h2>
                        Recepção
                     </h2>
@@ -139,34 +139,44 @@
                         Nossa recepção fica aberta 24hrs.
                     </p>
                 </div>
-                <div><img id="bosta"  src="imagens/img5.jpg" alt="recepcao"></div>
+                <div><img + src="imagens/img5.jpg" alt="recepcao"></div>
             
     </section>
     
      <!-- ENTRE EM CONTATO!-->
     <section class="contato">
-        <div class="contato-container">
+        <div class="contato-container" id="contato-comigo">
             <p>
                 Entre em contato conosco:
             </p>
         </div>
-        <div class="contato-container">    
-            <a href="#">
-                Endereço Av.123,222 - Rio de Janeiro RJ
-            </a>
+        <div class="contato-container" id="endereço">    
+            <p> Endereço
+                <a href="#">
+                    Av.123,222 - Rio de Janeiro RJ
+                </a>
+                
+            </p>
+            <img src="imagens/icones/endereco.png" alt="endereco">
         </div>
-        <div class="contato-container">
-           <a href="#">
-               Cel:5521000000000
-           </a>
+        <div class="contato-container" id="cel">
+           <p> Cel:
+               <a href="#">
+                  5521000000000
+               </a>
+               
+           </p>
+           <img src="imagens/icones/telefone.png" alt="cel">
         </div>
-        <div class="contato-container">
+        <div class="contato-container" id="reserva">
            <p>
                Faça sua reserva pelo 
                <a href="#">
                Booking.com
                </a>
+               
            </p>
+           <img src="imagens/icones/calendario.png" alt="calendario">
         </div>
         </div>
     </section>
