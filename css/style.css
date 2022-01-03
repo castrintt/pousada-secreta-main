@@ -120,8 +120,8 @@ article p {
     
 }
 #casal a {
-  padding-left: 68px;
-  padding-right: 88px;
+  padding-left: 78px;
+  padding-right: 78px;
 }
 #familia a {
     padding-right: 66px;
@@ -267,7 +267,7 @@ footer {
     
     }
     .contato {
-        margin-top: 150px;
+        margin-top: 270px;
 
     }
     #hidden {
@@ -285,6 +285,7 @@ footer {
     .card {
         padding-bottom: 50px;
     }
+
    
 }
 
